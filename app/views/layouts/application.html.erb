@@ -11,6 +11,16 @@
   </head>
 
   <body>
+    <nav>
+      <a href="/">Bulletin Board</a>
+    </nav>
+    <hr>
+    <div style="color: green">
+      <%=notice%>
+    </div>
+     <div style="color: red">
+      <%=alert%>
+    </div>
     <%= yield %>
   </body>
 </html>
